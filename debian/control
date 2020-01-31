@@ -1,0 +1,12 @@
+Source: ros-turbulent-dummy-sensors
+Section: misc
+Priority: extra
+Maintainer: Karsten Knese <karsten@osrfoundation.org>
+Build-Depends: debhelper (>= 9.0.0), ros-turbulent-ament-cmake, ros-turbulent-ament-cmake-gtest, ros-turbulent-ament-lint-auto, ros-turbulent-ament-lint-common, ros-turbulent-rclcpp, ros-turbulent-sensor-msgs, ros-turbulent-ros-workspace
+Homepage: 
+Standards-Version: 3.9.2
+
+Package: ros-turbulent-dummy-sensors
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, ros-turbulent-rclcpp, ros-turbulent-sensor-msgs, ros-turbulent-ros-workspace
+Description: dummy sensor nodes
