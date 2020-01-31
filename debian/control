@@ -1,0 +1,12 @@
+Source: ros-turbulent-logging-demo
+Section: misc
+Priority: extra
+Maintainer: Scott K Logan <scott@openrobotics.org>
+Build-Depends: debhelper (>= 9.0.0), ros-turbulent-ament-cmake, ros-turbulent-ament-cmake-pytest, ros-turbulent-ament-lint-auto, ros-turbulent-ament-lint-common, ros-turbulent-launch, ros-turbulent-launch-testing, ros-turbulent-launch-testing-ament-cmake, ros-turbulent-launch-testing-ros, ros-turbulent-rclcpp, ros-turbulent-rclcpp-components, ros-turbulent-rcutils, ros-turbulent-rmw-implementation-cmake, ros-turbulent-rosidl-cmake, ros-turbulent-rosidl-default-generators, ros-turbulent-std-msgs, ros-turbulent-ros-workspace, ros-turbulent-rmw-connext-cpp, ros-turbulent-rmw-fastrtps-cpp, ros-turbulent-rmw-implementation, ros-turbulent-rmw-opensplice-cpp, ros-turbulent-rosidl-typesupport-connext-c, ros-turbulent-rosidl-typesupport-connext-cpp, ros-turbulent-rosidl-typesupport-opensplice-c, ros-turbulent-rosidl-typesupport-opensplice-cpp
+Homepage: 
+Standards-Version: 3.9.2
+
+Package: ros-turbulent-logging-demo
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, ros-turbulent-rclcpp, ros-turbulent-rclcpp-components, ros-turbulent-rcutils, ros-turbulent-rosidl-default-runtime, ros-turbulent-std-msgs, ros-turbulent-ros-workspace
+Description: Examples for using and configuring loggers.
