@@ -1,0 +1,12 @@
+Source: ros-turbulent-dummy-robot-bringup
+Section: misc
+Priority: extra
+Maintainer: Karsten Knese <karsten@osrfoundation.org>
+Build-Depends: debhelper (>= 9.0.0), ros-turbulent-ament-cmake, ros-turbulent-ament-cmake-gtest, ros-turbulent-ament-lint-auto, ros-turbulent-ament-lint-common, ros-turbulent-ros-workspace
+Homepage: 
+Standards-Version: 3.9.2
+
+Package: ros-turbulent-dummy-robot-bringup
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, ros-turbulent-ament-index-python, ros-turbulent-dummy-map-server, ros-turbulent-dummy-sensors, ros-turbulent-launch, ros-turbulent-launch-ros, ros-turbulent-robot-state-publisher, ros-turbulent-ros-workspace
+Description: dummy robot bringup
