@@ -1,0 +1,12 @@
+Source: ros-turbulent-action-tutorials-py
+Section: misc
+Priority: extra
+Maintainer: Jacob Perron <jacob@openrobotics.org>
+Build-Depends: debhelper (>= 9.0.0), ros-turbulent-action-tutorials-interfaces, ros-turbulent-ament-lint-auto, ros-turbulent-ament-lint-common, ros-turbulent-ros-workspace, python3-all, python3-setuptools
+Homepage: 
+Standards-Version: 3.9.2
+
+Package: ros-turbulent-action-tutorials-py
+Architecture: any
+Depends: ${python3:Depends}, ${misc:Depends}, ros-turbulent-action-tutorials-interfaces, ros-turbulent-rclpy, ros-turbulent-ros-workspace
+Description: Python action tutorial code
