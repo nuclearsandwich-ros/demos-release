@@ -1,0 +1,12 @@
+Source: ros-turbulent-quality-of-service-demo-py
+Section: misc
+Priority: extra
+Maintainer: Amazon ROS Contributions <ros-contributions@amazon.com>
+Build-Depends: debhelper (>= 9.0.0), python3-pytest, ros-turbulent-ament-copyright, ros-turbulent-ament-flake8, ros-turbulent-ament-pep257, ros-turbulent-ros-workspace, python3-all, python3-setuptools
+Homepage: 
+Standards-Version: 3.9.2
+
+Package: ros-turbulent-quality-of-service-demo-py
+Architecture: any
+Depends: ${python3:Depends}, ${misc:Depends}, ros-turbulent-rclpy, ros-turbulent-std-msgs, ros-turbulent-ros-workspace
+Description: Python Demo applications for Quality of Service features
