@@ -1,0 +1,12 @@
+Source: ros-turbulent-lifecycle
+Section: misc
+Priority: extra
+Maintainer: Karsten Knese <karsten@osrfoundation.org>
+Build-Depends: debhelper (>= 9.0.0), ros-turbulent-ament-cmake, ros-turbulent-ament-lint-auto, ros-turbulent-ament-lint-common, ros-turbulent-lifecycle-msgs, ros-turbulent-rclcpp-lifecycle, ros-turbulent-ros-testing, ros-turbulent-std-msgs, ros-turbulent-ros-workspace
+Homepage: 
+Standards-Version: 3.9.2
+
+Package: ros-turbulent-lifecycle
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, ros-turbulent-lifecycle-msgs, ros-turbulent-rclcpp-lifecycle, ros-turbulent-std-msgs, ros-turbulent-ros-workspace
+Description: Package containing demos for lifecycle implementation
