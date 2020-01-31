@@ -1,0 +1,12 @@
+Source: ros-turbulent-demo-nodes-cpp-native
+Section: misc
+Priority: extra
+Maintainer: Dirk Thomas <dthomas@osrfoundation.org>
+Build-Depends: debhelper (>= 9.0.0), ros-turbulent-ament-cmake, ros-turbulent-ament-cmake-pytest, ros-turbulent-ament-lint-auto, ros-turbulent-ament-lint-common, ros-turbulent-launch, ros-turbulent-launch-testing, ros-turbulent-launch-testing-ament-cmake, ros-turbulent-launch-testing-ros, ros-turbulent-rclcpp, ros-turbulent-rclcpp-components, ros-turbulent-rmw-fastrtps-cpp, ros-turbulent-std-msgs, ros-turbulent-ros-workspace
+Homepage: 
+Standards-Version: 3.9.2
+
+Package: ros-turbulent-demo-nodes-cpp-native
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, ros-turbulent-rclcpp, ros-turbulent-rclcpp-components, ros-turbulent-rmw-fastrtps-cpp, ros-turbulent-std-msgs, ros-turbulent-ros-workspace
+Description: C++ nodes which access the native handles of the rmw implemenation.
