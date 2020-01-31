@@ -1,1 +1,1 @@
-{"base": "15e0ac24", "parent": "debian/eloquent/image_tools", "previous": "f2e8ff8c", "trim": "", "trimbase": ""}
+{"trim": "", "base": "284dd17", "trimbase": "", "parent": "debian/turbulent/image_tools", "previous": "f209e80"}
