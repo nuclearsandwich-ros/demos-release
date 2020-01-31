@@ -1,0 +1,12 @@
+Source: ros-turbulent-pendulum-control
+Section: misc
+Priority: extra
+Maintainer: Michael Carroll <michael@openrobotics.org>
+Build-Depends: debhelper (>= 9.0.0), ros-turbulent-ament-cmake, ros-turbulent-ament-cmake-pytest, ros-turbulent-ament-lint-auto, ros-turbulent-ament-lint-common, ros-turbulent-launch, ros-turbulent-launch-testing, ros-turbulent-launch-testing-ament-cmake, ros-turbulent-launch-testing-ros, ros-turbulent-pendulum-msgs, ros-turbulent-rclcpp, ros-turbulent-rmw-implementation-cmake, ros-turbulent-ros2run, ros-turbulent-rttest, ros-turbulent-tlsf-cpp, ros-turbulent-ros-workspace
+Homepage: 
+Standards-Version: 3.9.2
+
+Package: ros-turbulent-pendulum-control
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, ros-turbulent-pendulum-msgs, ros-turbulent-rclcpp, ros-turbulent-rttest, ros-turbulent-tlsf-cpp, ros-turbulent-ros-workspace
+Description: Demonstrates ROS 2's realtime capabilities with a simulated inverted pendulum.
