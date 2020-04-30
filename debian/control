@@ -1,0 +1,12 @@
+Source: ros-verystable-topic-monitor
+Section: misc
+Priority: optional
+Maintainer: Scott K Logan <scott@openrobotics.org>
+Build-Depends: debhelper (>= 9.0.0), python3-pytest, ros-verystable-ament-flake8, ros-verystable-ament-pep257, ros-verystable-rclpy, ros-verystable-ros-workspace, python3-all, python3-setuptools
+Homepage: 
+Standards-Version: 3.9.2
+
+Package: ros-verystable-topic-monitor
+Architecture: any
+Depends: ${python3:Depends}, ${misc:Depends}, ros-verystable-launch, ros-verystable-launch-ros, ros-verystable-rclpy, ros-verystable-std-msgs, ros-verystable-ros-workspace
+Description: Package containing tools for monitoring ROS 2 topics.
