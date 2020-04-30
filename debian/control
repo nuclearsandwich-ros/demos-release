@@ -1,0 +1,12 @@
+Source: ros-verystable-action-tutorials-cpp
+Section: misc
+Priority: optional
+Maintainer: Jacob Perron <jacob@openrobotics.org>
+Build-Depends: debhelper (>= 9.0.0), ros-verystable-action-tutorials-interfaces, ros-verystable-ament-cmake, ros-verystable-ament-lint-auto, ros-verystable-ament-lint-common, ros-verystable-rclcpp, ros-verystable-rclcpp-action, ros-verystable-rclcpp-components, ros-verystable-ros-workspace
+Homepage: 
+Standards-Version: 3.9.2
+
+Package: ros-verystable-action-tutorials-cpp
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, ros-verystable-action-tutorials-interfaces, ros-verystable-rclcpp, ros-verystable-rclcpp-action, ros-verystable-rclcpp-components, ros-verystable-ros-workspace
+Description: C++ action tutorial cpp code
