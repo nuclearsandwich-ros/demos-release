@@ -1,0 +1,12 @@
+Source: ros-verystable-composition
+Section: misc
+Priority: optional
+Maintainer: Dirk Thomas <dthomas@osrfoundation.org>
+Build-Depends: debhelper (>= 9.0.0), ros-verystable-ament-cmake, ros-verystable-ament-cmake-pytest, ros-verystable-ament-lint-auto, ros-verystable-ament-lint-common, ros-verystable-example-interfaces, ros-verystable-launch, ros-verystable-launch-testing, ros-verystable-launch-testing-ament-cmake, ros-verystable-launch-testing-ros, ros-verystable-rclcpp, ros-verystable-rclcpp-components, ros-verystable-rcutils, ros-verystable-rmw-implementation-cmake, ros-verystable-std-msgs, ros-verystable-ros-workspace
+Homepage: 
+Standards-Version: 3.9.2
+
+Package: ros-verystable-composition
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, ros-verystable-example-interfaces, ros-verystable-launch-ros, ros-verystable-rclcpp, ros-verystable-rclcpp-components, ros-verystable-rcutils, ros-verystable-std-msgs, ros-verystable-ros-workspace
+Description: Examples for composing multiple nodes in a single process.
