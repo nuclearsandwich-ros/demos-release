@@ -1,0 +1,12 @@
+Source: ros-verystable-image-tools
+Section: misc
+Priority: optional
+Maintainer: Dirk Thomas <dthomas@osrfoundation.org>
+Build-Depends: debhelper (>= 9.0.0), libopencv-dev, ros-verystable-ament-cmake, ros-verystable-ament-cmake-pytest, ros-verystable-ament-lint-auto, ros-verystable-ament-lint-common, ros-verystable-launch, ros-verystable-launch-ros, ros-verystable-launch-testing, ros-verystable-launch-testing-ament-cmake, ros-verystable-launch-testing-ros, ros-verystable-rclcpp, ros-verystable-rclcpp-components, ros-verystable-rmw-implementation-cmake, ros-verystable-sensor-msgs, ros-verystable-std-msgs, ros-verystable-ros-workspace
+Homepage: 
+Standards-Version: 3.9.2
+
+Package: ros-verystable-image-tools
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, libopencv-dev, ros-verystable-rclcpp, ros-verystable-rclcpp-components, ros-verystable-sensor-msgs, ros-verystable-std-msgs, ros-verystable-ros-workspace
+Description: Tools to capture and play back images to and from DDS subscriptions and publications.
