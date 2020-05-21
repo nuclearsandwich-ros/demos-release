@@ -1,0 +1,12 @@
+Source: ros-testing-pendulum-control
+Section: misc
+Priority: optional
+Maintainer: Michael Carroll <michael@openrobotics.org>
+Build-Depends: debhelper (>= 9.0.0), ros-testing-ament-cmake, ros-testing-ament-cmake-pytest, ros-testing-ament-lint-auto, ros-testing-ament-lint-common, ros-testing-launch, ros-testing-launch-testing, ros-testing-launch-testing-ament-cmake, ros-testing-launch-testing-ros, ros-testing-pendulum-msgs, ros-testing-rclcpp, ros-testing-rmw-implementation-cmake, ros-testing-ros2run, ros-testing-rttest, ros-testing-tlsf-cpp, ros-testing-ros-workspace
+Homepage: 
+Standards-Version: 3.9.2
+
+Package: ros-testing-pendulum-control
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, ros-testing-pendulum-msgs, ros-testing-rclcpp, ros-testing-rttest, ros-testing-tlsf-cpp, ros-testing-ros-workspace
+Description: Demonstrates ROS 2's realtime capabilities with a simulated inverted pendulum.
