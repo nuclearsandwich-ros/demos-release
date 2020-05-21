@@ -1,0 +1,12 @@
+Source: ros-testing-intra-process-demo
+Section: misc
+Priority: optional
+Maintainer: William Woodall <william@osrfoundation.org>
+Build-Depends: debhelper (>= 9.0.0), libopencv-dev, ros-testing-ament-cmake, ros-testing-ament-cmake-pytest, ros-testing-ament-lint-auto, ros-testing-ament-lint-common, ros-testing-launch, ros-testing-launch-testing, ros-testing-launch-testing-ament-cmake, ros-testing-rclcpp, ros-testing-rmw-implementation-cmake, ros-testing-sensor-msgs, ros-testing-std-msgs, ros-testing-ros-workspace
+Homepage: 
+Standards-Version: 3.9.2
+
+Package: ros-testing-intra-process-demo
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, libopencv-dev, ros-testing-rclcpp, ros-testing-sensor-msgs, ros-testing-ros-workspace
+Description: Demonstrations of intra process communication.
