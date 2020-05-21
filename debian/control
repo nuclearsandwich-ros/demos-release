@@ -1,0 +1,12 @@
+Source: ros-testing-dummy-robot-bringup
+Section: misc
+Priority: optional
+Maintainer: Karsten Knese <karsten@osrfoundation.org>
+Build-Depends: debhelper (>= 9.0.0), ros-testing-ament-cmake, ros-testing-ament-cmake-gtest, ros-testing-ament-lint-auto, ros-testing-ament-lint-common, ros-testing-ros-workspace
+Homepage: 
+Standards-Version: 3.9.2
+
+Package: ros-testing-dummy-robot-bringup
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, ros-testing-ament-index-python, ros-testing-dummy-map-server, ros-testing-dummy-sensors, ros-testing-launch, ros-testing-launch-ros, ros-testing-robot-state-publisher, ros-testing-ros-workspace
+Description: dummy robot bringup
