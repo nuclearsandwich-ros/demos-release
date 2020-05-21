@@ -1,0 +1,12 @@
+Source: ros-testing-pendulum-msgs
+Section: misc
+Priority: optional
+Maintainer: Michael Carroll <michael@openrobotics.org>
+Build-Depends: debhelper (>= 9.0.0), ros-testing-ament-cmake, ros-testing-builtin-interfaces, ros-testing-rosidl-default-generators, ros-testing-ros-workspace, ros-testing-rosidl-typesupport-connext-c, ros-testing-rosidl-typesupport-connext-cpp, ros-testing-rosidl-typesupport-fastrtps-c, ros-testing-rosidl-typesupport-fastrtps-cpp
+Homepage: 
+Standards-Version: 3.9.2
+
+Package: ros-testing-pendulum-msgs
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, ros-testing-builtin-interfaces, ros-testing-rosidl-default-runtime, ros-testing-ros-workspace
+Description: Custom messages for real-time pendulum control.
